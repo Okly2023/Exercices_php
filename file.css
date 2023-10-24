@@ -1,0 +1,62 @@
+/* CSS for Apology Generator */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="radio"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0062cc;
+}
+
+.apology-note {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+}
